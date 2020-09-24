@@ -1,0 +1,31 @@
+h1 {
+    color: teal;
+    border-color: #FF1493;
+    border-width: 5px;
+    border-style: solid;
+}
+
+li {
+    color: blueviolet;
+    border: 1px dashed green;
+}
+
+h4 {
+    color: #FF1493;
+}
+
+h6 {
+    color: rgb(31, 197, 169);
+    background: rgb(255, 100, 0);
+}
+
+h5 {
+    color: rgba(200, 200, 45, 0.5)
+}
+
+body {
+    background-color: pink;
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShbCUSzrkJJcdjP4xVKMlU9WsWUafo1SrOdeCY-kSfpuxvNpV9&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}

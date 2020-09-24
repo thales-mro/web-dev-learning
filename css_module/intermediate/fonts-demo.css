@@ -1,0 +1,19 @@
+p {
+    /* font-family: Arial; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    text-align: right;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 60px;
+    text-align: center;
+}
+
+span {
+    font-size: 2em;
+    font-weight: normal;
+    text-decoration: underline;
+}

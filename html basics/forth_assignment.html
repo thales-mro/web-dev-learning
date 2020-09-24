@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Challenge</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" name="FirstName" id="fname" placeholder="John" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="LastName" id="lname" placeholder="Smith" required>
+        <br>
+        
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" value="helicopter">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="Email" id="email" required placeholder="your email">
+        <label for="pw">Password:</label>
+        <input type="password" name="Password" id="pw" pattern=".{5,10}" title="5 to 10 characters">
+        <br>
+
+        <label for="birthday"></label>
+        <select name="Day" id="day">
+            <option value="">Day</option>
+            <option value="26">26</option>
+            <option value="25">25</option>
+
+        </select>
+
+        <select name="Month" id="month">
+            <option value="">Month</option>
+            <option value="oct">October</option>
+            <option value="nov">November</option>
+        </select>
+
+        <select name="Year" id="year">
+            <option value="">Year</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+
+        </select>
+
+        <br>
+
+        <label for="tac">I agree to the terms and conditions</label>
+        <input type="checkbox" name="tac" id="tac">
+        <br>
+
+        <input type="submit" value="Submit">
+        
+    </form>
+
+</body>
+</html>
